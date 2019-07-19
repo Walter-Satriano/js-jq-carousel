@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css" integrity="undefined" crossorigin="anonymous" />
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="carousel_wrapper">
+        <!-- freccia sinistra -->
+        <div class="prev">
+          <i class="fas fa-angle-left"></i>
+        </div>
+
+        <!-- blocco immagini -->
+        <div class="images">
+          <img class="first active" src="img/seal.jpg" alt="seal">
+          <img src="img/tiger.jpg" alt="tiger">
+          <img src="img/wolf.jpg" alt="wolf">
+          <img class="last" src="img/giraffe.jpg" alt="giraffe">
+        </div>
+
+        <!-- freccia destra -->
+        <div class="next">
+          <i class="fas fa-angle-right"></i>
+        </div>
+
+        <!-- blocco pallini -->
+        <div class="carousel_spot">
+          <span class="first active"></span>
+          <span></span>
+          <span></span>
+          <span class="last"></span>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+  </body>
+</html>
